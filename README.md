@@ -1,0 +1,2 @@
+# weatherbot
+Discord Weather Bot
