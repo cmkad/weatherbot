@@ -1,4 +1,3 @@
-#using tutorial from https://www.youtube.com/watch?v=Vz67oGgdXoQ
 import discord
 import os
 import requests
@@ -7,9 +6,9 @@ from dotenv import load_dotenv
 from weather import *
 
 
-api_key = '62ce074edef864d4ded19169eb8920b2'
 command_prefix = 'w.'
 load_dotenv()
+api_key = os.getenv('API_KEY')
 token = os.getenv('TOKEN')
 client = discord.Client()
 
